@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Alexandria } from "next/font/google";
+import { Providers } from "@/providers";
 
 const alexandria = Alexandria({
   subsets: ["latin"],
@@ -19,7 +20,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${alexandria.className}`}>{children}</body>
+      <body className={`${alexandria.className}`}>
+        <Providers>{children}</Providers>
+      </body>
     </html>
   );
 }

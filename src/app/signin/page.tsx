@@ -13,7 +13,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Separator } from "@/components/ui/separator";
 
-export default function SignInPage() {
+export default function SigninPage() {
   return (
     <div className="flex h-screen items-center justify-center">
       <Card className="w-[350px]">
