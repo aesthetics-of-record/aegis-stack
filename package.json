@@ -9,6 +9,7 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@daveyplate/better-auth-ui": "^3.2.5",
     "@hookform/resolvers": "^5.2.2",
     "@neondatabase/serverless": "^1.0.2",
     "@radix-ui/react-accordion": "^1.2.12",
@@ -57,7 +58,7 @@
     "react": "19.1.0",
     "react-day-picker": "^9.11.0",
     "react-dom": "19.1.0",
-    "react-hook-form": "^7.64.0",
+    "react-hook-form": "^7.65.0",
     "react-icons": "^5.5.0",
     "react-resizable-panels": "^3.0.6",
     "recharts": "2.15.4",
@@ -66,7 +67,8 @@
     "superjson": "^2.2.2",
     "tailwind-merge": "^3.3.1",
     "vaul": "^1.1.2",
-    "zod": "^4.1.12"
+    "zod": "^4.1.12",
+    "zustand": "^5.0.8"
   },
   "devDependencies": {
     "@biomejs/biome": "2.2.5",

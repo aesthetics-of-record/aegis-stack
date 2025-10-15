@@ -6,9 +6,6 @@ import {
   timestamp,
 } from "drizzle-orm/pg-core";
 
-/////////////////////////////////////////////////////////////////////////////
-// Better Auth Schema (do not update this schema)
-/////////////////////////////////////////////////////////////////////////////
 export const user = pgTable("user", {
   id: text("id").primaryKey(),
   name: text("name").notNull(),
@@ -94,4 +91,3 @@ export const apikey = pgTable("apikey", {
   permissions: text("permissions"),
   metadata: text("metadata"),
 });
-/////////////////////////////////////////////////////////////////////////////
